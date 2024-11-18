@@ -130,7 +130,7 @@ class TaskExecutor:
                         "human",
                         f"CURRENT_DATE: {self.current_date}\n"
                         "-----\n"
-                        f"다음 작업을 수행하고 자세한 답변을 제공하십시오.\n\nタスク: {task}\n\n"
+                        f"다음 작업을 수행하고 자세한 답변을 제공하십시오.\n\n작업: {task}\n\n"
                         "요구사항:\n"
                         "1. 필요에 따라 제공된 도구를 사용해야 합니다.\n"
                         "2. 실행에 있어 철저하고 포괄적이어야 한다.\n"

@@ -90,7 +90,7 @@ class OptionPresenter:
         task_name = task.task_name
         options = task.options
 
-        print(f"\nタスク: {task_name}")
+        print(f"\n작업: {task_name}")
         for i, option in enumerate(options):
             print(f"{i + 1}. {option.description}")
 

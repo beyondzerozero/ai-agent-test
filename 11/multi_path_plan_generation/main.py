@@ -295,7 +295,7 @@ def main():
     )
     agent = MultiPathPlanGeneration(llm=llm)
     result = agent.run(query=args.task)
-    print("\n=== 最終出力 ===")
+    print("\n=== 최종출력 ===")
     print(result)
 
 
